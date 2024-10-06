@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-image: url(craiyon_190401_a_image_for_background_weather_app__day.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 25px ;
+}
+.search-box{
+    margin: 25px;
+}
+input{
+    padding: 10px;
+    font-size: 17px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: rgb(190, 168, 211);
+    border-radius: 5px;
+
+}
+#search-button{
+    padding: 10px;
+    font-size: 17px;
+    width: 12%;
+    background-color: rgb(33, 95, 121);
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+}
+.icon img{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.temp{
+    font-size: 40px;
+    font-weight: 600;
+}
+.describe{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    font-size: 30px;
+}
+ 
